@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="/img/file-solid.svg">
+
+    <title>Curriculum vitae</title>
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous"></script>
+    
+    <header class="conteiner-fluid" id="inicio">
+      
+        
+     <img class="fotopersonal" src="img/hunter.jpg" alt="imagen de Miguel Hunter">
+        <h1  id="h1" onmouseover="document.getElementById('h1').style.fontSize='7rem'"
+         onmouseout="document.getElementById('h1').style.fontSize='5rem'">Miguel Hunter</h1>
+        <h2 class="subtitulo" id="h2" onmouseover="document.getElementById('h2').style.fontSize='5rem'" 
+        onmouseout="document.getElementById('h2').style.fontSize='3rem'">
+            Desarrollador web</h2>
+             
+            <h3>Deslizate sobre los elementos para descubrir más</h3>
+            <!--  Trate de cancelar la funcion java cuando la pantalla se achica, 
+                pero no encuentro el error y me quedo sin tiempo
+                
+            <script>
+                function myFunction(x) {
+      if (x.matches) { 
+        onmouseover=document.getElementById('h1').style.fontSize=''
+      } else {
+        onmouseover=document.getElementById('h1').style.fontSize='3rem'
+      }
+      function myFunction(x) {
+      if (x.matches) { 
+        document.getElementById('h2').style.fontSize='20px'
+      } else {
+        document.getElementById('h2').style.fontSize='2rem';
+      }
+    }
+    }
+    
+    var x = window.matchMedia(max-width: 700px)
+    myFunction(x) 
+    x.addListener(myFunction) 
+    </script> -->
+</header>
+         <section>
+        <nav class="navegador">
+            <ul>
+          <a href="#inicio"><li>Inicio </li></a>
+           <a href="#informacionPersonal"><li>Información personal </li></a>
+           <a href="#experienciaProfesional"><li>Experiencia profesional</li></a> 
+           <a href="#habilidades"><li>Habilidades</li></a> 
+        </ul>
+        </nav>
+    </section>
+
+
+        <section class="contenedor1" >
+            <h2 class="seccion" id="informacionPersonal" onmouseover="document.getElementById('contenido1')
+            .style.display='block'">Informacion personal</h2>
+            <Section class="contenido1" id="contenido1" onmouseout="document.getElementById('contenido1')
+            .style.display='none'">
+      
+        <h3 >Email</h3><p>miguel.hunter@example.com</p>
+        <h3>Telefono</h3><p>(683) 815-6575</p>
+        <h3>Fecha de nacimiento:</h3><p>8/5/1958</p>
+        </section>
+    </Section>
+
+
+    <section class="contenedor2" >
+        
+            <h2 class="seccion" id="experienciaProfesional" onmouseover="document.getElementById('contenido2')
+            .style.display='block'">Experiencia profesional</h2>
+            <Section class="contenido2" id="contenido2" onmouseout="document.getElementById('contenido2')
+            .style.display='none'">
+        <h3 class="experiencia">Developer iOS -junior-</h3> <p>Encargado de diseño y creación de aplicaciones avanzadas para la plataforma de iOS. Desde septiembre 2020- noviembre 2021</p>
+        <h3 class="experiencia">Full Stack .NET Developer</h3> <p>Encargado de mantenimiento de paginas web. Desde Diciembre 2021 - Diciembre 2022 </p>
+        
+    </section>
+</section>
+</section>
+
+    <section class="contenedor3"  >
+        <h2 class="seccion" id="habilidades" onmouseover="document.getElementById('contenido3')
+        .style.display='block'">Habilidades</h2>
+         <Section class="contenido3" id="contenido3" onmouseout="document.getElementById('contenido3')
+         .style.display='none'" >
+        <h3> Lenguajes</h3>
+        <ul class="texto">
+            <li class="lenguaje1">Español:Nativo</li>
+            <li class="lenguaje2">Ingles: Avanzado</li>
+            <li class="lenguaje3">Frances:Principiante</li>
+            <li class="lenguaje4">Portugues:Intermedio</li>
+        </ul>
+        <h3>Herramientas informaticas</h3>
+        <ul class="texto" class="herramientas">
+            <li>Paquete office: Avanzado</li>
+            <li>Herramientas de diseño (Adobe): Básico</li>
+            <li>html+css: Avanzado</li>
+            <li>Java Script: Avanzado</li>
+            <li>Phyton: Intermedio</li>
+        </ul>
+        </section>
+    </section>
+    <section class="footer" id="footer">
+        <nav class="navegador">
+            <ul>
+          <a href="#inicio"><li>Inicio </li></a>
+           <a href="#informacionPersonal"><li>Información personal </li></a>
+           <a href="#experienciaProfesional"><li>Experiencia profesional</li></a> 
+           <a href="#habilidades"><li>Habilidades</li></a> 
+        </ul>
+        </nav>
+    </section>
+</body>
+</html>
